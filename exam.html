@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>English Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
+
+</head>
+
+<body class="exam-body">
+        <div class="headline exam-headline" >English Exam</div>
+    <div class="exam-container">
+        <div class="Controls">
+            <a class="btn btn--dark btn--hover" id="previous">previous</a>
+            <a class="btn btn--dark btn--hover" id="skip">skip</a>
+            <a class="btn btn--dark btn--hover" id="next">next</a>
+        </div>
+        <div class="div-exam">
+        <span id="QId"></span>
+        <span id="Q-header"></span>
+        <div class="choices">
+            <input type="radio" name="A" value="A1" id="RA1">
+            <span id="A1"></span>
+        </div>
+        <div class="choices">
+            <input type="radio" name="A" value="A2" id="RA2">
+            <span id="A2"></span>
+        </div>
+
+        <div class="choices">
+            <input type="radio" name="A" value="A3" id="RA3">
+            <span id="A3"></span>
+        </div>
+        <div class="choices">
+            <input type="radio" name="A" value="A4" id="RA4">
+            <span id="A4"></span>
+        </div>
+    </div>
+
+    <div id="skiped-Questions" class="skipped">
+        <div class="skip-headline">skipped Questions</div>
+        <div></div>
+    </div>
+</div>
+    <script src="js/exam.js"></script>
+</body>
+
+</html>

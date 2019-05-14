@@ -1,0 +1,285 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #cdaa7c; }
+
+.index-body {
+  height: 60rem; }
+
+#div-body-bg {
+  height: 62rem;
+  overflow: hidden; }
+
+#body-bg {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly; }
+
+.form {
+  background: linear-gradient(rgba(37, 31, 67, 0.8), rgba(37, 31, 67, 0.8));
+  padding: 1rem;
+  position: absolute;
+  right: 0rem;
+  margin: 2rem;
+  width: 40%;
+  border: 0.3rem solid #cdaa7c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column; }
+  .form .form-title {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase; }
+  .form .wrap-input {
+    font-family: inherit;
+    font-size: 2rem;
+    width: 100%;
+    flex-direction: column;
+    padding: 0.5rem; }
+    .form .wrap-input .title {
+      padding-left: 1rem;
+      display: block;
+      text-transform: capitalize; }
+    .form .wrap-input .txt-input {
+      margin: 0.5rem;
+      width: 90%;
+      height: 3.5rem;
+      border: 0.3rem solid #cdaa7c;
+      display: block;
+      outline: none; }
+    .form .wrap-input .focus-input100 {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      pointer-events: none; }
+      .form .wrap-input .focus-input100::before {
+        content: "";
+        display: block;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        transition: all 0.4s;
+        background: #df254e; }
+      .form .wrap-input .focus-input100 .txt-input:focus + .focus-input100::before {
+        width: 100%; }
+    .form .wrap-input .Gender-container {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  height: 4.2rem;
+  width: 18.2rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 0.6rem 0;
+  font-family: inherit;
+  border: 1px solid #cdaa7c;
+  z-index: 1; }
+  .btn--dark {
+    color: #cdaa7c;
+    background-color: #251F43; }
+  .btn--light {
+    color: #251F43;
+    background-color: #cdaa7c; }
+  .btn--rounded {
+    border-radius: 21px; }
+  .btn--transparent {
+    background-color: transparent; }
+  .btn--hover:hover {
+    color: #251F43;
+    background-color: #cdaa7c; }
+  .btn--move::before {
+    content: " ";
+    transform-origin: left;
+    transform: scaleX(0);
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    z-index: -1;
+    width: 18.2rem;
+    height: 4.2rem;
+    border-radius: 21px;
+    transition: all 1s;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out; }
+  .btn--move:hover {
+    border-color: transparent;
+    color: #FFFFFF; }
+    .btn--move:hover::after {
+      content: " ";
+      transform: scaleX(1);
+      background-color: #cdaa7c; }
+
+.headline {
+  font-family: 'Allura';
+  color: #251F43;
+  font-size: 7rem;
+  display: inline-block;
+  position: absolute;
+  top: 10rem;
+  left: 28rem; }
+
+.instructions {
+  position: absolute;
+  background: linear-gradient(rgba(37, 31, 67, 0.8), rgba(37, 31, 67, 0.8));
+  width: 38%;
+  border: 0.3rem solid #cdaa7c;
+  left: 15rem;
+  top: 18rem; }
+  .instructions .instructions-item {
+    margin: 2rem;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #cdaa7c; }
+
+.link-item {
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+  width: inherit;
+  padding: 0.4rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: transparent; }
+  .link-item--border:hover {
+    color: #251F43;
+    border: 0.1rem solid #251F43;
+    position: relative;
+    transition: all 0.3s ease-out; }
+  .link-item--move {
+    color: #251F43; }
+    .link-item--move::before {
+      top: -5px;
+      display: inline-block;
+      position: relative;
+      content: " ";
+      background-color: #cdaa7c;
+      height: 0.2rem;
+      width: 0rem;
+      margin-right: 6px;
+      transition: all 0.2s ease; }
+    .link-item--move:hover::before {
+      width: 0.8rem; }
+
+.caption {
+  display: inline-block;
+  height: 4rem;
+  width: 27rem;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: inherit;
+  color: #FFFFFF;
+  background: #cdaa7c;
+  font-size: 1.5rem; }
+
+.exam-body {
+  background-color: #9E9E9E;
+  color: #251F43;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.exam-headline {
+  top: 3rem;
+  left: 46rem; }
+
+.exam-container {
+  border: 0.2rem solid #cdaa7c;
+  width: 60%;
+  height: 30rem;
+  margin: 15rem;
+  position: absolute;
+  left: -4rem; }
+  .exam-container .Controls {
+    display: block;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .exam-container .div-exam {
+    width: 100%;
+    margin: 2rem; }
+    .exam-container .div-exam .choices {
+      margin: 1.5rem; }
+  .exam-container .skipped {
+    visibility: hidden;
+    border: 0.2rem solid #cdaa7c;
+    width: 40%;
+    margin: 15rem;
+    position: absolute;
+    right: -57rem;
+    top: -15rem;
+    height: 30rem;
+    text-transform: capitalize;
+    font-size: 2rem; }
+    .exam-container .skipped .skip-headline {
+      text-transform: capitalize;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .exam-container .skipped div {
+      margin: 0.5rem;
+      text-transform: capitalize;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+.result-body {
+  background-color: #9E9E9E;
+  color: #251F43;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.res-container {
+  border: 0.2rem solid #cdaa7c;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20rem;
+  font-size: 3rem;
+  margin: 1rem; }
+  .res-container .div-score {
+    color: green; }
+    .res-container .div-score .score {
+      color: red; }
+  .res-container div {
+    margin: 2rem;
+    text-transform: capitalize; }

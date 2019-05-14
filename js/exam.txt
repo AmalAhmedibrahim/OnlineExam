@@ -1,0 +1,10 @@
+'1',"I ..... tennis every Sunday morning.",'playing','play','am playing','am play','play'
+'2',"Don't make so much noise. Noriko ..... to study for her ESL test!",'try','tries','tried','is trying','is trying'
+'3','Jun-Sik ..... his teeth before breakfast every morning.','will cleaned','is cleaning','cleans','clean','cleans'
+'4',"Sorry, she can't come to the phone. She ..... a bath!",'is having','having','have','has','is having'
+'5','..... many times every winter in Frankfurt.','It snows','It snowed','It is snowing','It is snow','It snows'
+'6','How many students in your class ..... from Korea?','comes','come','came','are coming','come'
+'7',"Weather report: It's seven o'clock in Frankfurt and ..... .",'there is snow',"it`s snowing",'it snows','it snowed','it`s snowing'
+'8','Babies ..... when they are hungry.','cry','cries','cried','are crying','cry')
+'9','Jane ..... her blue jeans today, but usually she wears a skirt or a dress.','wears','wearing','wear','is wearing','	is wearing'
+'10','I think I ..... a new calculator. This one does not work properly any more.','needs','needed','need','am needing','need'

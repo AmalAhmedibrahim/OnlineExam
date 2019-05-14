@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
+</head>
+
+<body class="index-body">
+    <div id="div-body-bg"><img id="body-bg" src="images/exam.jpg"></div>
+    <div class="container">
+        <form method="GET" action="exam.html" id="form" class="form" autocomplete="off">
+            <span class="form-title">Enter your Personal Information</span>
+            <div class="wrap-input">
+                <span class="span-first-name title">First name</span>
+                <input type="text" name="firstname" placeholder="first name" id="first-name" class="txt-input">
+            </div>
+            <div class="wrap-input">
+                <span class="span-last-name title">Last name</span>
+                <input type="text" name="lastname" placeholder="Last name" id="last-name" class="txt-input">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input">
+                <span class="span-user-name title">User Name</span>
+                <input type="text" name="lastname" placeholder="Last name" id="user-name" class="txt-input">
+            </div>
+            <div class="wrap-input">
+                <span class="span-email title">email</span>
+                <input type="text" name="email" placeholder="email" id="email" class="txt-input">
+            </div>
+            <div class="wrap-input">
+                <span class="span-password-name title">password</span>
+                <input type="password" name="password" placeholder="password" id="password" class="txt-input">
+            </div>
+            <div class="wrap-input">
+                <div class="div-gender title">gender</div>
+                
+                <div class="Gender-container">
+                    <span>
+                <input type="radio" name="gender" value="male" checked id="male">
+                <span class="span-gender">Male</span>
+            </span>
+            <span>
+                <input type="radio" name="gender" value="female" id="female">
+                <span class="span-gender">Female</span>
+            </span>
+            </div>
+            </div>
+
+
+            <!-- <div class="book-now-button-1"> -->
+
+                <input type="submit" value="Login" id="login" class="login txt-input btn btn--dark  btn--rounded btn--transparent btn--move">
+
+            <!-- </div> -->
+        </form>
+        <div class="headline" >Welcome</div>
+        <div class="instructions">
+            
+            <div class="instructions-item">Please enter valid personal informations.</div>
+            <div class="instructions-item">Click "Log In For Your Exam Here" at the bottom of the screen.</div>
+            <div class="instructions-item">The exam consist of 5 questions multiple-choice.</div>
+            <div class="instructions-item">please choose one answer only.</div>
+
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
